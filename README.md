@@ -1,24 +1,12 @@
-# README
+# Messenger recreation
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+APIs
 
-Things you may want to cover:
+* http://localhost:3000/api/v0/create.json
+Params: user => { name, mobile}
 
-* Ruby version
+* http://localhost:3000/api/v0/fetch.json
+Params: user_token
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* http://localhost:3000/api/v0/send.json
+Params: user_token, message=>{message, to_user}
